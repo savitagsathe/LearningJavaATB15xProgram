@@ -1,4 +1,4 @@
-package ex_01_java_pogram;
+package ex_01_java_Task;
 
 public class lab001_HelloWorld1
 {
