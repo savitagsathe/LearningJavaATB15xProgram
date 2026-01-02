@@ -5,17 +5,16 @@ import java.util.Scanner;
 public class Practice {
     public static void main(String[] args) {
 
-    for(int i=1;i<=100;i++){
-        if (i%3==0&&i%5==0) {
-            System.out.println("FizzBuzz");
-        } else if (i%3==0) {
-            System.out.println("Fizz");
+   int side1=45,side2=45,side3=45;
+   if (side1==side2&&side2==side3){
+       System.out.println("triangle is equilateral ");
+   } else if (side1==side2||side2==side3||side1==side3) {
+       System.out.println("triangle is isosceles ");
+   }else {
+       System.out.println("triangle is scalene  ");
+   }
+    }
 
-        } else if (i%5==0) {
-            System.out.println("Buzz");
-        }else {
-            System.out.println(i);
-        }
+
     }
-    }
-}
+
