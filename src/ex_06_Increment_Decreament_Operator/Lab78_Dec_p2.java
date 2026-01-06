@@ -1,4 +1,4 @@
-package ex_07_Increment_Decreament_Operator;
+package ex_06_Increment_Decreament_Operator;
 
 public class Lab78_Dec_p2 {
     static void main(String[] args) {
