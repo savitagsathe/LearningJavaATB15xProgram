@@ -1,4 +1,4 @@
-package coding_practice;
+package coding_250questions_practice;
 /*Table Print using System.out.printf
 Print  lines of output; each line  (where ) contains the  of  in the form:
 N x i = result.

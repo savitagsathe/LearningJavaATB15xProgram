@@ -1,4 +1,4 @@
-package coding_practice;
+package coding_250questions_practice;
 
 import java.util.Scanner;
 /*How to Take Input from Users?

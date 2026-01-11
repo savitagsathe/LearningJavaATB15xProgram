@@ -1,4 +1,4 @@
-package coding_practice;
+package coding_250questions_practice;
 /*Write a program that calculates and displays the letter grade for a given numerical 
 score (e.g., A, B, C, D, or F) based on the following grading scale:
 A: 90-100

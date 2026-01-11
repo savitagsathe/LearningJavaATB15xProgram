@@ -1,4 +1,4 @@
-package coding_practice;
+package coding_250questions_practice;
 
 public class Palidrome_of_String {
     static void main(String[] args) {

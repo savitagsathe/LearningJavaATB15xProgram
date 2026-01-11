@@ -1,4 +1,4 @@
-package coding_practice;
+package coding_250questions_practice;
 //Write a program that classifies a triangle based on its side lengths.
 // Given three input values representing the lengths of the sides,
 // determine if the triangle is equilateral (all sides are equal),
