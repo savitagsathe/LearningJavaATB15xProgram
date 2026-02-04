@@ -8,7 +8,7 @@ public class Thief {
         //thief.canIShoot();
 
         //System.out.println(thief.gun);
-        thief.thi
+        //thief.thi
 
     }
 }
