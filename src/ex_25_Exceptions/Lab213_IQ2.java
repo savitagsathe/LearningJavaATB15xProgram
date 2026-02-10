@@ -11,13 +11,13 @@ public class Lab213_IQ2 {
 //The above programs 3 exception will be handled in one
 
 
-        try {
-            String input_user=args[0];
-            Integer a=Integer.parseInt(input_user);
-            int output = 100/a;
-        } catch (ArrayIndexOutOfBoundsException|ArithmeticException|NumberFormatException e) {
-            System.out.println(e.getMessage());
-        }
+//        try {
+//            String input_user=args[0];
+//            Integer a=Integer.parseInt(input_user);
+//            int output = 100/a;
+//        } catch (ArrayIndexOutOfBoundsException|ArithmeticException|NumberFormatException e) {
+//            System.out.println(e.getMessage());
+//        }
 
 
     }

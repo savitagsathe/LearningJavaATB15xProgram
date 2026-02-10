@@ -1,5 +1,12 @@
 package ex_01_java_Task;
+/*
 
+      *
+     ***
+    *****
+   *******
+  *********
+ */
 public class PyramidPattern {
     public static void main(String[] args) {
         int n=5;
