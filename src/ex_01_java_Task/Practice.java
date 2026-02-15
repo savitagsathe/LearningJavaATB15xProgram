@@ -3,28 +3,27 @@ package ex_01_java_Task;
 import java.util.HashMap;
 import java.util.HashSet;
 import java.util.Scanner;
+import java.util.Set;
 
 public class Practice {
-    public static void main(String[] args) {
-        String str="rajendra 12345   ";
-        str=str.toLowerCase();
+    public static void main(String[] args)
+    {
+     String str="rajendra";
+     //create a Hashmap to store how many times each character appear
+        HashMap<Character,Integer>charCount=new HashMap<>();
 
-        int letterCount=0;
-        int spaceCount=0;
-        int digitCount=0;
-
+        //step1:count each character count
         for (char ch:str.toCharArray()){
-            if (Character.isLetter(ch)){
-                letterCount++;
-            } else if (Character.isDigit(ch)) {
-                digitCount++;
-            }else if(Character.isWhitespace(ch)){
-                spaceCount++;
-            }
+            charCount.put(ch,charCount.getOrDefault(ch,0)+1);
         }
-        System.out.println("Char count: "+letterCount);
-        System.out.println("Digit count: "+digitCount);
-        System.out.println("space count: "+spaceCount);
+        System.out.println("Duplicate characters");
+        //step2 print duplicates
+        for (char ch:str.toCharArray()){
+        if(charCount.get(ch)>1){
+            System.out.println(ch+"=>"+charCount.get(ch));
+            charCount.put(ch,0);
+        }
+        }
    }
     }
 
