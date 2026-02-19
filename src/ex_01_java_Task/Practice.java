@@ -5,26 +5,29 @@ import java.util.HashSet;
 import java.util.Scanner;
 import java.util.Set;
 
-public class Practice {
+public abstract class Practice {
     public static void main(String[] args)
     {
-     String str="rajendra";
-     //create a Hashmap to store how many times each character appear
-        HashMap<Character,Integer>charCount=new HashMap<>();
+//        String str="rajendra sathe";
+//        int vowelCount=0;
+//        int consonentCount=0;
+//        str=str.toLowerCase();
+//
+//        for (int i=0;i<str.length();i++){
+//            char ch=str.charAt(i);
+//            if(ch=='a'||ch=='e'||ch=='i'||ch=='o'||ch=='u'){
+//                vowelCount++;
+//            }else if(Character.isLetter(ch)) {
+//                consonentCount++;
+//            }
+//        }
+//        System.out.println("Vowels count is:"+vowelCount+"consonent count is:"+consonentCount);
+//
+//
+     try { int a = 10/0; } catch (Exception e) { System.out.println("Catch"); } finally { System.out.println("Finally"); }
 
-        //step1:count each character count
-        for (char ch:str.toCharArray()){
-            charCount.put(ch,charCount.getOrDefault(ch,0)+1);
-        }
-        System.out.println("Duplicate characters");
-        //step2 print duplicates
-        for (char ch:str.toCharArray()){
-        if(charCount.get(ch)>1){
-            System.out.println(ch+"=>"+charCount.get(ch));
-            charCount.put(ch,0);
-        }
-        }
-   }
+    }
+
     }
 
 
